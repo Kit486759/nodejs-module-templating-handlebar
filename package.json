@@ -1,0 +1,27 @@
+{
+  "name": "section-6-handle-bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kit486759/nodejs-module-templating-handlebar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kit486759/nodejs-module-templating-handlebar/issues"
+  },
+  "homepage": "https://github.com/Kit486759/nodejs-module-templating-handlebar#readme"
+}
