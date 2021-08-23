@@ -7,7 +7,7 @@ const app = express()
 // require handlebar
 const expressHbs = require('express-handlebars')
 // make expresshbs() as engine as hbs
-app.engine('hbs',expressHbs())
+app.engine('hbs',expressHbs({layoutsDir:'views/layouts/', defaultLayout:'main-layout', extname:'hbs'}))
 
 // set template engine, use hbs
 app.set('view engine','hbs');
